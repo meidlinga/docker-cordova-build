@@ -2,7 +2,7 @@
 
 apt-get update 
 #apt upgrade
-apt-get -y install npm grunt wget git
+apt-get -y install npm grunt wget git dos2unix
 apt-get -y install openjdk-8-jre-headless openjdk-8-jdk-headless gradle
 #apt-get -y install openjdk-11-jre-headless openjdk-11-jdk-headless
 
