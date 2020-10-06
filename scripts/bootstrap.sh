@@ -33,5 +33,7 @@ source /etc/profile.d/99-android-emu.sh
 yes | sdkmanager --sdk_root=/usr/local/android-sdk-linux --licenses
 sdkmanager --sdk_root=/usr/local/android-sdk-linux "platform-tools" "platforms;android-28" "platforms;android-29" "build-tools;30.0.1" 
 
+mkdir -p /staging
+chmod 777 /staging
 mkdir -p /build
 chmod 777 /build
